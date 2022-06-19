@@ -1,0 +1,121 @@
+body {
+    background-color: lavender;
+}
+
+.container {
+    max-width:800px;
+    width:800px;
+    margin:50px auto;
+    font-size:26px;
+    font-family:sans-serif;
+}
+
+.credits {
+    font-family: 'Roboto', sans-serif;
+    font-size:12px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: -2%;
+}
+
+.guy {
+    margin-top: 0 auto;
+    display: block;
+    padding-top: -10%;
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 5%;
+    background-color: #5f6583;
+    color: white;
+    padding: 2%;
+}
+
+img {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.float img{
+
+    width: 20%;
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+    -webkit-animation: float 6s ease-in-out alternate infinite;
+    animation: float 6s ease-in-out alternate infinite;
+}
+.float1 img {
+    width: 20%;
+
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+    -webkit-animation: float 3s ease-in-out alternate infinite;
+    animation: float 3s ease-in-out alternate infinite;
+}
+
+@-webkit-keyframes float {
+    0% {
+        -webkit-transform: translatey(0px);
+        transform: translatey(0px);
+    }
+    50% {
+        -webkit-transform: translatey(-15px);
+        transform: translatey(-15px);
+    }
+    100% {
+        -webkit-transform: translatey(0px);
+        transform: translatey(0px);
+    }
+}
+
+@keyframes float {
+    0% {
+        box-shadow:  rgba(0, 0, 0, 0.6);
+        -webkit-transform: translatey(0px);
+        transform: translatey(0px);
+    }
+    50% {
+        box-shadow:  rgba(0, 0, 0, 0.2);
+        -webkit-transform: translatey(-20px);
+        transform: translatey(-20px);
+    }
+    100% {
+        box-shadow:  rgba(0, 0, 0, 0.6);
+        -webkit-transform: translatey(0px);
+        transform: translatey(0px);
+    }
+}
+
+.zen {
+    width: 50%;
+    float: left;
+    margin-left: 10%;
+}
+
+.yoga-mat {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.tea {
+    float: left;
+    width: 75%;
+    margin-left: -10%;
+}
+
+.lotus {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+
+.stones {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
